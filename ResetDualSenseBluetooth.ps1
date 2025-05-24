@@ -35,9 +35,9 @@ Restart-Service bthserv -Force
 Start-Sleep -Seconds 3
 Write-Host "Службы Bluetooth перезапущены." -ForegroundColor Green
 
-Write-Host "`n== Инструкция для повторного сопряжения ==" -ForegroundColor Cyan
+Write-Host "`n== Инструкция ==" -ForegroundColor Cyan
 Write-Host "1. Нажмите Win+R и введите: control /name Microsoft.DevicesAndPrinters" -ForegroundColor White
 Write-Host "2. Включите режим сопряжения на DualSense (зажать PS + Create до белого мигания)." -ForegroundColor White
 Write-Host "3. Нажмите 'Добавить устройство' и выберите Wireless Controller." -ForegroundColor White
 Write-Host "4. Не трогайте мышку/клаву во время сопряжения." -ForegroundColor White
-Write-Host "`n✅ После успешного подключения вы сможете использовать геймпад во всех играх." -ForegroundColor Green
+Write-Host "`n После успешного подключения вы сможете использовать геймпад во всех играх." -ForegroundColor Green
